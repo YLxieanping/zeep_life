@@ -109,7 +109,7 @@ if __name__ == "__main__":
     RandomMin = 20000 # 随机步数范围的最小值
     RandomMax = 30000 # 随机步数范围的最大值
     account = [# 账号 密码 步数(固定步数则填指定的数值)(随机则填None)(可填多组信息)
-        [ACCOUNT, PASSWORD, None],
+        [ACCOUNT, PASSWORD, 21316],
         #['账号1', '密码1', 步数1],
         #['账号2', '密码2', 步数2],
     ]
