@@ -106,10 +106,10 @@ def change_steps(user, userid, app_token, step=None):
 if __name__ == "__main__":
     ACCOUNT = os.environ["ACCOUNT"] # 获取 GitHub Secret 环境变量的账号信息
     PASSWORD = os.environ["PASSWORD"] # 获取 GitHub Secret 环境变量的密码信息
-    RandomMin = 25000 # 随机步数范围的最小值
-    RandomMax = 55000 # 随机步数范围的最大值
+    RandomMin = 20000 # 随机步数范围的最小值
+    RandomMax = 30000 # 随机步数范围的最大值
     account = [# 账号 密码 步数(固定步数则填指定的数值)(随机则填None)(可填多组信息)
-        [ACCOUNT, PASSWORD, 21319],
+        [ACCOUNT, PASSWORD, NONE],
         #['账号1', '密码1', 步数1],
         #['账号2', '密码2', 步数2],
     ]
