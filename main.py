@@ -114,7 +114,7 @@ if __name__ == "__main__":
         #['账号2', '密码2', 步数2],
     ]
     for i in account:
-        step = i[1] # 这里数字填你加进了几组账号，例如这里我只加了一组账号，就填1
+        step = i[2] # 这里数字实际表示步数所位于的字段,昨天加注释时不小心改错了,现在要改回2
         # 若步数为空出则采用随机取步数方案
         if not step:
             step = random.randint(RandomMin, RandomMax) # 在指定范围内随机取一个步数
